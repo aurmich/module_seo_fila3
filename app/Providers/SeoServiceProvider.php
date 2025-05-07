@@ -15,4 +15,29 @@ class SeoServiceProvider extends XotBaseServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 
+    /**
+     * Register the service provider.
+     *
+     * @return void
+     */
+    public function register(): void
+    {
+        parent::register();
+
+        $this->app->singleton(MetatagService::class, function ($app) {
+            return new MetatagService();
+        });
+    }
+
+    /**
+     * Get the services provided by the provider.
+     *
+     * @return array<string>
+     */
+    public function provides(): array
+    {
+        return [
+            MetatagService::class,
+        ];
+    }
 }

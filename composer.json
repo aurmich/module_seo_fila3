@@ -1,6 +1,6 @@
 {
     "name": "laraxot/module_seo_fila3",
-    "description": "Modulo SEO per l'ottimizzazione dei contenuti: gestione meta tag, analisi e ottimizzazione contenuti per motori di ricerca.",
+    "description": "",
     "homepage": "https://github.com/laraxot/module_seo_fila3",
     "license": "MIT",
     "authors": [
@@ -16,21 +16,28 @@
                 "Modules\\Seo\\Providers\\SeoServiceProvider",
                 "Modules\\Seo\\Providers\\Filament\\AdminPanelProvider"
             ],
-            "aliases": {}
+            "aliases": {
+
+            }
         }
     },
     "autoload": {
         "psr-4": {
-            "Modules\\Seo\\": "app/",
+            "Modules\\Seo\\": "app/"
+
+
+        },
+        "psr-4_comment": {
             "Modules\\Seo\\Database\\Factories\\": "database/factories/",
             "Modules\\Seo\\Database\\Seeders\\": "database/seeders/"
         }
     },
-    "require": {
+    "require_comment": {
         "openai-php/laravel": "^0.4.1",
         "thecodingmachine/safe": "^2.5"
     },
-    "require-dev": {
+
+    "require-dev_comment": {
         "laravel/pint": "^1.13",
         "nunomaduro/phpinsights": "^2.11",
         "larastan/larastan": "^2.7",

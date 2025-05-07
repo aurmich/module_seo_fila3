@@ -1,8 +1,8 @@
 {
     "name": "Seo",
     "alias": "seo",
-    "description": "Modulo per l'ottimizzazione SEO dei contenuti: gestione meta tag, analisi e ottimizzazione contenuti per motori di ricerca.",
-    "keywords": ["seo", "meta", "ottimizzazione", "search engine", "contenuti"],
+    "description": "",
+    "keywords": [],
     "priority": 0,
     "providers": [
         "Modules\\Seo\\Providers\\SeoServiceProvider"
