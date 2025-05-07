@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Seo\Providers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Providers\XotBaseServiceProvider;
 use Modules\Seo\Services\MetatagService;
 =======
@@ -23,38 +24,45 @@ class SeoServiceProvider extends XotBaseServiceProvider
 =======
 =======
 use Illuminate\Support\ServiceProvider;
+=======
+use Modules\Xot\Providers\XotBaseServiceProvider;
+>>>>>>> 723d9b0 (.)
 use Modules\Seo\Services\MetatagService;
 
-class SeoServiceProvider extends ServiceProvider
+/**
+ * Service provider for the Seo module.
+ *
+ * @package Modules\Seo
+ */
+class SeoServiceProvider extends XotBaseServiceProvider
 {
+    public string $name = 'Seo';
+    protected string $module_dir = __DIR__;
+    protected string $module_ns = __NAMESPACE__;
+
     /**
      * @var string
      */
     protected string $moduleName = 'Seo';
 
     /**
-     * @var string
-     */
-    protected string $moduleNameLower = 'seo';
-
-    /**
      * Boot the application events.
      *
      * @return void
      */
-    public function boot()
+    public function boot(): void
     {
+        parent::boot();
         $this->registerConfig();
         $this->registerViews();
-        $this->loadMigrationsFrom(module_path($this->moduleName, 'database/migrations'));
+        $this->loadMigrationsFrom(module_path($this->name, 'database/migrations'));
     }
 >>>>>>> 207483e (.)
 
     /**
      * Register the service provider.
-     *
-     * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function register(): void
     {
@@ -64,6 +72,11 @@ class SeoServiceProvider extends ServiceProvider
     public function register()
     {
 >>>>>>> 207483e (.)
+=======
+    public function register(): void
+    {
+        parent::register();
+>>>>>>> 723d9b0 (.)
         $this->app->singleton(MetatagService::class, function ($app) {
             return new MetatagService();
         });
@@ -73,35 +86,28 @@ class SeoServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 =======
      * Register config.
-     *
-     * @return void
      */
-    protected function registerConfig()
+    protected function registerConfig(): void
     {
         $this->publishes([
-            module_path($this->moduleName, 'config/config.php') => config_path($this->moduleNameLower . '.php'),
+            module_path($this->name, 'config/config.php') => config_path(strtolower($this->name) . '.php'),
         ], 'config');
         $this->mergeConfigFrom(
-            module_path($this->moduleName, 'config/config.php'), $this->moduleNameLower
+            module_path($this->name, 'config/config.php'), strtolower($this->name)
         );
     }
 
     /**
      * Register views.
-     *
-     * @return void
      */
-    protected function registerViews()
+    protected function registerViews(): void
     {
-        $viewPath = resource_path('views/modules/' . $this->moduleNameLower);
-
-        $sourcePath = module_path($this->moduleName, 'resources/views');
-
+        $viewPath = resource_path('views/modules/' . strtolower($this->name));
+        $sourcePath = module_path($this->name, 'resources/views');
         $this->publishes([
             $sourcePath => $viewPath
-        ], ['views', $this->moduleNameLower . '-module-views']);
-
-        $this->loadViewsFrom($sourcePath, $this->moduleNameLower);
+        ], ['views', strtolower($this->name) . '-module-views']);
+        $this->loadViewsFrom($sourcePath, strtolower($this->name));
     }
 
     /**

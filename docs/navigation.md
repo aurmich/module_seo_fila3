@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 723d9b0 (.)
 # Navigazione
 
 La navigazione del modulo SEO è organizzata per fornire un accesso intuitivo alle funzionalità di ottimizzazione.
@@ -16,7 +22,13 @@ La navigazione del modulo SEO è organizzata per fornire un accesso intuitivo al
 - /seo/content
 - /seo/reports
 - /seo/settings
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 723d9b0 (.)
 ---
 title: Navigation
 description: Building a navigation menu for your site
@@ -51,4 +63,10 @@ return [
 // blade files
 $page->navigation
 ```
+<<<<<<< HEAD
 >>>>>>> 207483e (.)
+=======
+
+---
+
+>>>>>>> 723d9b0 (.)

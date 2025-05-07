@@ -24,6 +24,7 @@ export default defineConfig({
 //    'Modules/Seo/resources/assets/sass/app.scss',
 //    'Modules/Seo/resources/assets/js/app.js',
 <<<<<<< HEAD
+<<<<<<< HEAD
 //];
 =======
 <<<<<<< HEAD
@@ -32,3 +33,6 @@ export default defineConfig({
 //];
 >>>>>>> origin/dev
 >>>>>>> 207483e (.)
+=======
+
+>>>>>>> 723d9b0 (.)
