@@ -1,25 +1,11 @@
-<<<<<<< HEAD
 {
     "name": "Seo",
     "alias": "seo",
-    "description": "",
-    "keywords": [],
+    "description": "Modulo per l'ottimizzazione SEO dei contenuti",
+    "keywords": ["seo", "meta", "optimization"],
     "priority": 0,
     "providers": [
         "Modules\\Seo\\Providers\\SeoServiceProvider"
     ],
     "files": []
 }
-=======
-{
-    "name": "Seo",
-    "alias": "seo",
-    "description": "",
-    "keywords": [],
-    "priority": 0,
-    "providers": [
-        "Modules\\Seo\\Providers\\SeoServiceProvider"
-    ],
-    "files": []
-}
->>>>>>> 2b0f7a6 (.)
