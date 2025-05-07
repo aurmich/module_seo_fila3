@@ -5,6 +5,9 @@
 .env
 npm-debug.log
 /cache
+<<<<<<< HEAD
 -e 
 # PHPStan documentation
 docs/phpstan/
+=======
+>>>>>>> 207483e (.)

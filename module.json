@@ -1,8 +1,13 @@
 {
     "name": "Seo",
     "alias": "seo",
+<<<<<<< HEAD
     "description": "Modulo per l'ottimizzazione SEO dei contenuti",
     "keywords": ["seo", "meta", "optimization"],
+=======
+    "description": "",
+    "keywords": [],
+>>>>>>> 207483e (.)
     "priority": 0,
     "providers": [
         "Modules\\Seo\\Providers\\SeoServiceProvider"

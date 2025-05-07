@@ -23,4 +23,12 @@ export default defineConfig({
 //export const paths = [
 //    'Modules/Seo/resources/assets/sass/app.scss',
 //    'Modules/Seo/resources/assets/js/app.js',
+<<<<<<< HEAD
 //];
+=======
+<<<<<<< HEAD
+//];
+=======
+//];
+>>>>>>> origin/dev
+>>>>>>> 207483e (.)

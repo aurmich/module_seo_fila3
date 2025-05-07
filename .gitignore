@@ -1,5 +1,8 @@
 docs/cache/
 cache/
+<<<<<<< HEAD
 -e 
 # PHPStan documentation
 docs/phpstan/
+=======
+>>>>>>> 207483e (.)
