@@ -1,13 +1,85 @@
-docs/cache/
+# File .gitignore per progetto PHP/Laravel
+
+# ------------------------------
+# Dipendenze e pacchetti
+# ------------------------------
+/vendor/
+vendor/
+vendor
+/vendor
+/node_modules/
+node_modules/
+node_modules
+*.phar
+*.lock
+/*.lock
+composer.lock
+package-lock.json
+/docs/package-lock.json
+yarn.lock
+
+# ------------------------------
+# Log e cache
+# ------------------------------
+npm-debug.log
+yarn-error.log
+*.log
+*.cache
+.phpunit.result.cache
+.php-cs-fixer.cache
+build/docs/cache/
 cache/
-<<<<<<< HEAD
-<<<<<<< HEAD
--e 
-# PHPStan documentation
+
+# ------------------------------
+# Ambiente e configurazione
+# ------------------------------
+.env
+.env.*
+!.env.example
+storage/*.key
+
+# ------------------------------
+# Build e distribuzioni
+# ------------------------------
+build
+/build/
+
+# ------------------------------
+# Laravel specifico
+# ------------------------------
+# Laravel 4
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5+
+public/storage
+public/hot
+public_html/storage
+public_html/hot
+
+# ------------------------------
+# Homestead
+# ------------------------------
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+# ------------------------------
+# Documentazione
+# ------------------------------
+/docs/
 docs/phpstan/
-=======
->>>>>>> 207483e (.)
-=======
-# PHPStan documentation
-docs/phpstan/
->>>>>>> 723d9b0 (.)
+
+# ------------------------------
+# Git
+# ------------------------------
+.git-blame-ignore-revs
+.git-rewrite/
+
+# ------------------------------
+# File temporanei e editor
+# ------------------------------
+*.tmp
+*.swp
+*.swo
+*.bak
