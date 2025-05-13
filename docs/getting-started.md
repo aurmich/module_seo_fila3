@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Getting Started
 description: Getting started with Jigsaw's docs starter template is as easy as 1, 2, 3.
@@ -75,3 +76,34 @@ Now that you’ve edited your configuration variables and know how to customize 
 # options: dev, prod
 npm run dev
 ```
+=======
+# Guida Introduttiva
+
+## Installazione
+```bash
+composer require laraxot/module_seo_fila3
+```
+
+## Configurazione
+1. Pubblicare i file di configurazione:
+```bash
+php artisan vendor:publish --tag=seo-config
+```
+
+2. Aggiungere il service provider in `config/app.php`:
+```php
+Modules\Seo\Providers\SeoServiceProvider::class,
+```
+
+## Utilizzo Base
+1. Aggiungere meta tags
+2. Configurare regole SEO
+3. Analizzare contenuti
+4. Generare rapporti
+
+## Documentazione Completa
+Per maggiori dettagli consultare:
+- [Configurazione](configuration.md)
+- [Meta Tags](meta-tags.md)
+- [Analisi](analysis.md)
+>>>>>>> 9d074aa (.)

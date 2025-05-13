@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Navigation
 description: Building a navigation menu for your site
@@ -32,3 +33,22 @@ return [
 // blade files
 $page->navigation
 ```
+=======
+# Navigazione
+
+La navigazione del modulo SEO è organizzata per fornire un accesso intuitivo alle funzionalità di ottimizzazione.
+
+## Menu Principale
+- Dashboard SEO
+- Meta Tags
+- Analisi Contenuti
+- Rapporti
+- Configurazione
+
+## Struttura URL
+- /seo/dashboard
+- /seo/meta-tags
+- /seo/content
+- /seo/reports
+- /seo/settings
+>>>>>>> 9d074aa (.)
