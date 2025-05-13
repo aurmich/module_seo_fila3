@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 name: Build & Publish
 
 on:
@@ -34,6 +33,4 @@ jobs:
       run: |
         git subtree split --prefix build_production -b master
         git push -f origin master:master
-=======
->>>>>>> 9d074aa (.)
         git branch -D master
