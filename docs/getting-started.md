@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 38698b4d9 (fix collisioni sync)
 ---
 title: Getting Started
 description: Getting started with Jigsaw's docs starter template is as easy as 1, 2, 3.
@@ -79,10 +75,6 @@ Now that you’ve edited your configuration variables and know how to customize 
 # options: dev, prod
 npm run dev
 ```
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 38698b4d9 (fix collisioni sync)
 # Guida Introduttiva
 
 ## Installazione
@@ -112,4 +104,3 @@ Per maggiori dettagli consultare:
 - [Configurazione](configuration.md)
 - [Meta Tags](meta-tags.md)
 - [Analisi](analysis.md)
->>>>>>> 9d074aa (.)

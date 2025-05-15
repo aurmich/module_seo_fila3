@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 38698b4d9 (fix collisioni sync)
 ---
 title: Navigation
 description: Building a navigation menu for your site
@@ -36,10 +32,6 @@ return [
 // blade files
 $page->navigation
 ```
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 38698b4d9 (fix collisioni sync)
 # Navigazione
 
 La navigazione del modulo SEO è organizzata per fornire un accesso intuitivo alle funzionalità di ottimizzazione.
@@ -57,4 +49,3 @@ La navigazione del modulo SEO è organizzata per fornire un accesso intuitivo al
 - /seo/content
 - /seo/reports
 - /seo/settings
->>>>>>> 9d074aa (.)
