@@ -33,6 +33,7 @@ return [
 $page->navigation
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Navigazione
 
@@ -52,3 +53,5 @@ La navigazione del modulo SEO è organizzata per fornire un accesso intuitivo al
 - /seo/reports
 - /seo/settings
 >>>>>>> aurmich/dev
+=======
+>>>>>>> d7293d4 (.)

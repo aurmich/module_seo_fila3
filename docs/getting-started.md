@@ -76,6 +76,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 npm run dev
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Guida Introduttiva
 
@@ -107,3 +108,5 @@ Per maggiori dettagli consultare:
 - [Meta Tags](meta-tags.md)
 - [Analisi](analysis.md)
 >>>>>>> aurmich/dev
+=======
+>>>>>>> d7293d4 (.)
