@@ -32,9 +32,6 @@ return [
 // blade files
 $page->navigation
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 # Navigazione
 
 La navigazione del modulo SEO è organizzata per fornire un accesso intuitivo alle funzionalità di ottimizzazione.
@@ -52,6 +49,3 @@ La navigazione del modulo SEO è organizzata per fornire un accesso intuitivo al
 - /seo/content
 - /seo/reports
 - /seo/settings
->>>>>>> aurmich/dev
-=======
->>>>>>> d7293d4 (.)
