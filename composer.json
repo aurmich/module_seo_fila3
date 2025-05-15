@@ -1,6 +1,10 @@
 {
     "name": "laraxot/module_seo_fila3",
+<<<<<<< HEAD
     "description": "",
+=======
+    "description": "Modulo SEO per l'ottimizzazione dei contenuti",
+>>>>>>> aurmich/dev
     "homepage": "https://github.com/laraxot/module_seo_fila3",
     "license": "MIT",
     "authors": [
@@ -23,11 +27,15 @@
     },
     "autoload": {
         "psr-4": {
+<<<<<<< HEAD
             "Modules\\Seo\\": "app/"
 
 
         },
         "psr-4_comment": {
+=======
+            "Modules\\Seo\\": "app/",
+>>>>>>> aurmich/dev
             "Modules\\Seo\\Database\\Factories\\": "database/factories/",
             "Modules\\Seo\\Database\\Seeders\\": "database/seeders/"
         }
@@ -36,7 +44,10 @@
         "openai-php/laravel": "^0.4.1",
         "thecodingmachine/safe": "^2.5"
     },
+<<<<<<< HEAD
 
+=======
+>>>>>>> aurmich/dev
     "require-dev_comment": {
         "laravel/pint": "^1.13",
         "nunomaduro/phpinsights": "^2.11",
