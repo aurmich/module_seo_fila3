@@ -171,8 +171,8 @@ tests/Unit
         }
     },
     "require_comment": {
-        "openai-php/laravel": "^0.4.1",
-        "thecodingmachine/safe": "^2.5"
+        "openai-php/laravel": "*"
+        
     },
 ```
 
