@@ -33,6 +33,9 @@ return [
 $page->navigation
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d78cb43 (.)
 # Navigazione
 
 La navigazione del modulo SEO è organizzata per fornire un accesso intuitivo alle funzionalità di ottimizzazione.
@@ -50,5 +53,8 @@ La navigazione del modulo SEO è organizzata per fornire un accesso intuitivo al
 - /seo/content
 - /seo/reports
 - /seo/settings
+<<<<<<< HEAD
 =======
 >>>>>>> d7293d4 (.)
+=======
+>>>>>>> d78cb43 (.)
