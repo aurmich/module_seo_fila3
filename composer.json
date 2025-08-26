@@ -29,33 +29,13 @@
         }
     },
     "require_comment": {
-<<<<<<< HEAD
-<<<<<<< HEAD
         "openai-php/laravel": "^0.4.1",
-=======
-        "openai-php/laravel": "*",
->>>>>>> 8b76560 (.)
         "thecodingmachine/safe": "^2.5"
-=======
-<<<<<<< HEAD
-=======
-        "openai-php/laravel": "*",
-        "thecodingmachine/safe": "^2.5"
->>>>>>> 4a62e9b (.)
->>>>>>> aurmich/dev
     },
     "require-dev_comment": {
         "laravel/pint": "^1.13",
         "nunomaduro/phpinsights": "^2.11",
-<<<<<<< HEAD
         "larastan/larastan": "^2.7",
-=======
-<<<<<<< HEAD
-        "larastan/larastan": "*",
-=======
-        "larastan/larastan": "^2.7",
->>>>>>> 4a62e9b (.)
->>>>>>> aurmich/dev
         "vimeo/psalm": "^5.17",
         "psalm/plugin-laravel": "^2.8",
         "enlightn/enlightn": "^2.7",

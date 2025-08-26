@@ -75,6 +75,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 # options: dev, prod
 npm run dev
 ```
+<<<<<<< HEAD
 # Guida Introduttiva
 
 ## Installazione
@@ -104,3 +105,5 @@ Per maggiori dettagli consultare:
 - [Configurazione](configuration.md)
 - [Meta Tags](meta-tags.md)
 - [Analisi](analysis.md)
+=======
+>>>>>>> d7293d4 (.)
