@@ -30,6 +30,7 @@
     },
     "require_comment": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "openai-php/laravel": "*"
 =======
 <<<<<<< HEAD
@@ -43,10 +44,13 @@
 >>>>>>> 4a62e9b (.)
 >>>>>>> aurmich/dev
 >>>>>>> f1b65e6 (.)
+=======
+>>>>>>> 10816f2 (.)
     },
     "require-dev_comment": {
         "laravel/pint": "^1.13",
         "nunomaduro/phpinsights": "^2.11",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "larastan/larastan": "*",
 =======
@@ -60,6 +64,9 @@
 >>>>>>> 4a62e9b (.)
 >>>>>>> aurmich/dev
 >>>>>>> f1b65e6 (.)
+=======
+        "larastan/larastan": "*",
+>>>>>>> 10816f2 (.)
         "vimeo/psalm": "^5.17",
         "psalm/plugin-laravel": "^2.8",
         "enlightn/enlightn": "^2.7",
