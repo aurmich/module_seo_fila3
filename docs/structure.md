@@ -171,7 +171,22 @@ tests/Unit
         }
     },
     "require_comment": {
+<<<<<<< HEAD
         "openai-php/laravel": "*"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "openai-php/laravel": "*"
+        
+=======
+        "openai-php/laravel": "^0.4.1",
+        "thecodingmachine/safe": "^2.5"
+>>>>>>> d7293d4 (.)
+=======
+        "openai-php/laravel": "*"
+        
+>>>>>>> d78cb43 (.)
+>>>>>>> 1c344a1 (.)
     },
 ```
 
