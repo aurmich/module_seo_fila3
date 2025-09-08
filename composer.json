@@ -29,8 +29,12 @@
         }
     },
     "require_comment": {
+<<<<<<< HEAD
         "openai-php/laravel": "*",
         "thecodingmachine/safe": "^2.5"
+=======
+        "openai-php/laravel": "*"
+>>>>>>> 1c344a1 (.)
     },
     "require-dev_comment": {
         "laravel/pint": "^1.13",
