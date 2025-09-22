@@ -3,3 +3,12 @@ cache/
 -e 
 # PHPStan documentation
 docs/phpstan/
+<<<<<<< HEAD
+=======
+
+# Backup files
+*.old
+*.old1
+*.backup
+*.backup.*
+>>>>>>> cd427c7 (.)

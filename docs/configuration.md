@@ -63,9 +63,15 @@ Seo/
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Configurazione Moduli](../../../docs/module-configuration.md)
 - [Relazioni tra Moduli](../../../docs/module-relationships.md)
 - [Regole dei Namespace](../../../docs/module-namespace-rules.md)
+=======
+- [Configurazione Moduli](../../../project_docs/module-configuration.md)
+- [Relazioni tra Moduli](../../../project_docs/module-relationships.md)
+- [Regole dei Namespace](../../../project_docs/module-namespace-rules.md)
+>>>>>>> cd427c7 (.)
 
 ## Checklist Implementazione
 

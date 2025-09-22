@@ -23,7 +23,11 @@ return [
             'Custom 404 Page' => 'docs/custom-404-page',
         ],
     ],
+<<<<<<< HEAD
     'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
+=======
+    'Jigsaw Docs' => 'https://jigsaw.tighten.co/project_docs/installation',
+>>>>>>> cd427c7 (.)
 ];
 
 // config.php
